@@ -1,0 +1,7 @@
+I have added new instructions in enum opcode, The two instructions "Movz" and "Retz" having opcode as 21 and 22 respectively.
+Along with that I have also encoded that in assembler and and added five registers namely R0 having 0000 encode, oldPC having 0001 encode, oldSP having 0010 encode Flags having 0011 encode, oldFlags having 0100 encode, CauseReg having 0101 encode and lastly Sp having 1110 encode.
+I have changed it such that new encoding could be parsed by assembler.
+I have changed the encoding generator to generate the above opcodes.
+Movz has been added as an instruction having two operand and Retz having no opetrand.
+
+
